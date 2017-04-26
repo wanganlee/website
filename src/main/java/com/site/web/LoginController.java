@@ -33,4 +33,11 @@ public class LoginController {
 		UserLoginResponse resp = loginService.login(req);
 		return resp;
 	}
+	
+	/**
+	* 测试
+	*/
+	@Test
+	public void logout(){
+	}
 }
