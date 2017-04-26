@@ -191,7 +191,12 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- 添加了angularjs支持 -->	
+		<dependency>
+		    <groupId>org.webjars.bower</groupId>
+		    <artifactId>angularjs</artifactId>
+		    <version>1.6.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>
